@@ -14,6 +14,7 @@ Install it using [pathogen](https://github.com/tpope/vim-pathogen).
 In your <code>vimrc</code>: configure a key binding to find and set a filetype.
 
     " CtrlP for filetype
+    let g:ctrlp_extensions = ['filetype']
     silent! nnoremap <unique> <silent> <Leader>f :CtrlPFiletype<CR>
 
 Hope you enjoy it.
